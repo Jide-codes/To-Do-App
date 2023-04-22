@@ -41,8 +41,7 @@
         <a class="delete-link" href="{% url 'task-delete' task.id %}">&#215;</a>
         {% endif %}
     </div>
-    {% empty %}
-    <h2>No item in the list</h2>
+  
     {% endfor %}
 </div> 
 {% endblock content %}
