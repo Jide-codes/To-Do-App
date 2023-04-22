@@ -74,7 +74,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'todo_list.wsgi.application'
 
-CSRF_TRUSTED_ORIGINS = ['https://.mydomain.com', 'https://.127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000/']
 
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
